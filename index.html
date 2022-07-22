@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container w-75 bg-secondary mt-3 mb-3 rounded">
+        <div class="row">
+            <div class="col bg bg-dark d-none d-lg-block img-container col-md-2 col-lg-5 col-xl-6 rounded">
+                
+            </div>
+            <div class="col bg-white p-3 rounded-end">
+                <div class="text-right">
+                    <img src="assets/img/gatito.webp" alt="gatito" width="40">
+                </div>
+                <h2 class="text-center fw-bold">Bienvenido</h2>
+
+                <!-- LOGIN -->
+
+                <form action="#">
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Correo electronico</label>
+                        <input type="email" class="form-control" name="email" id="email">
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" name="password" id="password">
+                    </div>
+                    <div class="mb-4 form-check">
+                        <input type="checkbox" class="form-check-input" name="connected" id="connected">
+                        <label for="connected" class="form-check-label">Mantenerme conectado</label>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Iniciar sesion</button>
+                    </div>
+
+                    <div class="my-3">
+                        <span>No tienes cuenta? <a href="#">Registrate</a></span>
+                        <div>
+                            <span><a href="#">Recuperar password</a></span>
+                        </div>
+                    </div>
+
+                    <!-- REDES SOCIALES -->
+                    <div class="container w-100 my-5">
+                        <div class="row text-center">
+                            <div class="col-12">
+                                Iniciar sesion
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary w-100 my-1">
+                                    Facebook
+                                </button>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-outline-danger w-100 my-1">
+                                    Google
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>

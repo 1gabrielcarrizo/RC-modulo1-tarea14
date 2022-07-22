@@ -1,0 +1,18 @@
+:root{
+    --cool-blues: linear-gradient(to right, #2193b0, #6dd5ed);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--cool-blues);
+}
+
+.img-container{
+    background-image: url(../assets/img/gato3.webp);
+    background-position: center center;
+    background-size: cover;
+    width: 100vh;
+}
